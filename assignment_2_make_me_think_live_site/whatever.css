@@ -1,0 +1,47 @@
+body {
+    background-color: #F5F7CC; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.keep-it-simple, 
+.i-mean-it {
+    border: #2994FF dashed 10px; 
+    text-shadow: rgba(0, 144, 111, 0.31) 16px 32px 6px;
+    background-color: #9CD0BC; 
+    border-radius: 3000px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.callout {
+    font-size: 22vh;
+    font-family: 'Futura'; 
+    color: #1E5E8D; 
+    text-align: center; 
+    width: 82vh; 
+    height: 82vh; 
+    margin: 9vh; 
+}
+
+.simple {
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+
+    background-image: url('images/simple.png'); 
+    background-size: cover; 
+}
+
+.simple img {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0; 
+    width: 82vh; 
+    height: 82vh; 
+    z-index: -1; 
+} 
